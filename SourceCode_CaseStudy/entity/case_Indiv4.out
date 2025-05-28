@@ -1,0 +1,311 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building entity 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:3.1.0:java (default-cli) @ entity ---
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/public/home/blockchain_2/slave2/.m2/repository/org/slf4j/slf4j-reload4j/1.7.36/slf4j-reload4j-1.7.36.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/public/home/blockchain_2/slave2/.m2/repository/org/apache/logging/log4j/log4j-slf4j-impl/2.17.1/log4j-slf4j-impl-2.17.1.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.Reload4jLoggerFactory]
+log4j:WARN No appenders could be found for logger (org.apache.commons.beanutils.converters.BooleanConverter).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+org.janusgraph.core.JanusGraphException: Could not execute operation due to backend exception
+	at org.janusgraph.diskstorage.util.BackendOperation.execute(BackendOperation.java:54)
+	at org.janusgraph.diskstorage.BackendTransaction.executeRead(BackendTransaction.java:521)
+	at org.janusgraph.diskstorage.BackendTransaction.edgeStoreMultiQuery(BackendTransaction.java:300)
+	at org.janusgraph.graphdb.database.StandardJanusGraph.edgeMultiQuery(StandardJanusGraph.java:568)
+	at org.janusgraph.graphdb.transaction.StandardJanusGraphTx.lambda$executeMultiQuery$4(StandardJanusGraphTx.java:1252)
+	at org.janusgraph.graphdb.query.profile.QueryProfiler.profile(QueryProfiler.java:113)
+	at org.janusgraph.graphdb.query.profile.QueryProfiler.profile(QueryProfiler.java:105)
+	at org.janusgraph.graphdb.transaction.StandardJanusGraphTx.executeMultiQuery(StandardJanusGraphTx.java:1252)
+	at org.janusgraph.graphdb.query.vertex.MultiVertexCentricQueryBuilder.execute(MultiVertexCentricQueryBuilder.java:121)
+	at org.janusgraph.graphdb.query.vertex.MultiVertexCentricQueryBuilder.edges(MultiVertexCentricQueryBuilder.java:172)
+	at org.janusgraph.graphdb.tinkerpop.optimize.step.fetcher.VertexStepBatchFetcher.makeQueryAndExecute(VertexStepBatchFetcher.java:39)
+	at org.janusgraph.graphdb.tinkerpop.optimize.step.fetcher.MultiQueriableStepBatchFetcher.prefetchNextBatch(MultiQueriableStepBatchFetcher.java:112)
+	at org.janusgraph.graphdb.tinkerpop.optimize.step.fetcher.MultiQueriableStepBatchFetcher.fetchData(MultiQueriableStepBatchFetcher.java:96)
+	at org.janusgraph.graphdb.tinkerpop.optimize.step.JanusGraphVertexStep.flatMap(JanusGraphVertexStep.java:117)
+	at org.apache.tinkerpop.gremlin.process.traversal.step.map.FlatMapStep.processNextStart(FlatMapStep.java:49)
+	at org.apache.tinkerpop.gremlin.process.traversal.step.util.AbstractStep.next(AbstractStep.java:140)
+	at org.apache.tinkerpop.gremlin.process.traversal.step.util.AbstractStep.next(AbstractStep.java:40)
+	at org.apache.tinkerpop.gremlin.process.traversal.Traversal.fill(Traversal.java:184)
+	at org.apache.tinkerpop.gremlin.process.traversal.Traversal.toList(Traversal.java:122)
+	at entity.SG1_dec.processInitAddress(SG1_dec.java:39)
+	at entity.dec.main(dec.java:38)
+	at org.codehaus.mojo.exec.ExecJavaMojo$1.run(ExecJavaMojo.java:279)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.janusgraph.diskstorage.TemporaryBackendException: Could not successfully complete backend operation due to repeated temporary exceptions after PT8M20S
+	at org.janusgraph.diskstorage.util.BackendOperation.executeDirect(BackendOperation.java:98)
+	at org.janusgraph.diskstorage.util.BackendOperation.execute(BackendOperation.java:52)
+	... 22 more
+Caused by: org.janusgraph.diskstorage.TemporaryBackendException: Temporary failure in storage backend
+	at org.janusgraph.diskstorage.hbase.HBaseKeyColumnValueStore.getHelper(HBaseKeyColumnValueStore.java:230)
+	at org.janusgraph.diskstorage.hbase.HBaseKeyColumnValueStore.getSlice(HBaseKeyColumnValueStore.java:119)
+	at org.janusgraph.diskstorage.keycolumnvalue.KCVSProxy.getSlice(KCVSProxy.java:87)
+	at org.janusgraph.diskstorage.keycolumnvalue.cache.ExpirationKCVSCache.getSlice(ExpirationKCVSCache.java:122)
+	at org.janusgraph.diskstorage.BackendTransaction$2.call(BackendTransaction.java:303)
+	at org.janusgraph.diskstorage.BackendTransaction$2.call(BackendTransaction.java:300)
+	at org.janusgraph.diskstorage.util.BackendOperation.executeDirect(BackendOperation.java:66)
+	... 23 more
+Caused by: org.apache.hadoop.hbase.client.RetriesExhaustedException: Failed after attempts=16, exceptions:
+2025-04-25T08:16:36.656Z, RpcRetryingCaller{globalStartTime=2025-04-25T08:15:36.565Z, pause=100, maxAttempts=16}, org.apache.hadoop.hbase.ipc.CallTimeoutException: Call to address=node11:16020 failed on local exception: org.apache.hadoop.hbase.ipc.CallTimeoutException: Call[id=95,methodName=Get], waitTime=60032ms, rpcTimeout=60000ms
+2025-04-25T08:17:36.777Z, RpcRetryingCaller{globalStartTime=2025-04-25T08:15:36.565Z, pause=100, maxAttempts=16}, org.apache.hadoop.hbase.ipc.CallTimeoutException: Call to address=node11:16020 failed on local exception: org.apache.hadoop.hbase.ipc.CallTimeoutException: Call[id=111,methodName=Get], waitTime=60003ms, rpcTimeout=60000ms
+2025-04-25T08:18:36.997Z, RpcRetryingCaller{globalStartTime=2025-04-25T08:15:36.565Z, pause=100, maxAttempts=16}, org.apache.hadoop.hbase.ipc.CallTimeoutException: Call to address=node11:16020 failed on local exception: org.apache.hadoop.hbase.ipc.CallTimeoutException: Call[id=127,methodName=Get], waitTime=60009ms, rpcTimeout=60000ms
+2025-04-25T08:19:37.317Z, RpcRetryingCaller{globalStartTime=2025-04-25T08:15:36.565Z, pause=100, maxAttempts=16}, org.apache.hadoop.hbase.ipc.CallTimeoutException: Call to address=node11:16020 failed on local exception: org.apache.hadoop.hbase.ipc.CallTimeoutException: Call[id=143,methodName=Get], waitTime=60008ms, rpcTimeout=60000ms
+2025-04-25T08:20:37.837Z, RpcRetryingCaller{globalStartTime=2025-04-25T08:15:36.565Z, pause=100, maxAttempts=16}, org.apache.hadoop.hbase.ipc.CallTimeoutException: Call to address=node11:16020 failed on local exception: org.apache.hadoop.hbase.ipc.CallTimeoutException: Call[id=159,methodName=Get], waitTime=60008ms, rpcTimeout=60000ms
+2025-04-25T08:21:38.858Z, RpcRetryingCaller{globalStartTime=2025-04-25T08:15:36.565Z, pause=100, maxAttempts=16}, org.apache.hadoop.hbase.ipc.CallTimeoutException: Call to address=node11:16020 failed on local exception: org.apache.hadoop.hbase.ipc.CallTimeoutException: Call[id=176,methodName=Get], waitTime=60003ms, rpcTimeout=60000ms
+2025-04-25T08:22:40.891Z, RpcRetryingCaller{globalStartTime=2025-04-25T08:15:36.565Z, pause=100, maxAttempts=16}, org.apache.hadoop.hbase.ipc.CallTimeoutException: Call to address=node11:16020 failed on local exception: org.apache.hadoop.hbase.ipc.CallTimeoutException: Call[id=192,methodName=Get], waitTime=60002ms, rpcTimeout=60000ms
+2025-04-25T08:23:44.938Z, RpcRetryingCaller{globalStartTime=2025-04-25T08:15:36.565Z, pause=100, maxAttempts=16}, org.apache.hadoop.hbase.ipc.CallTimeoutException: Call to address=node11:16020 failed on local exception: org.apache.hadoop.hbase.ipc.CallTimeoutException: Call[id=209,methodName=Get], waitTime=60002ms, rpcTimeout=60000ms
+2025-04-25T08:24:54.958Z, RpcRetryingCaller{globalStartTime=2025-04-25T08:15:36.565Z, pause=100, maxAttempts=16}, org.apache.hadoop.hbase.ipc.CallTimeoutException: Call to address=node11:16020 failed on local exception: org.apache.hadoop.hbase.ipc.CallTimeoutException: Call[id=227,methodName=Get], waitTime=60004ms, rpcTimeout=60000ms
+2025-04-25T08:26:05.038Z, RpcRetryingCaller{globalStartTime=2025-04-25T08:15:36.565Z, pause=100, maxAttempts=16}, org.apache.hadoop.hbase.ipc.CallTimeoutException: Call to address=node11:16020 failed on local exception: org.apache.hadoop.hbase.ipc.CallTimeoutException: Call[id=245,methodName=Get], waitTime=60006ms, rpcTimeout=60000ms
+2025-04-25T08:27:15.077Z, RpcRetryingCaller{globalStartTime=2025-04-25T08:15:36.565Z, pause=100, maxAttempts=16}, org.apache.hadoop.hbase.ipc.CallTimeoutException: Call to address=node11:16020 failed on local exception: org.apache.hadoop.hbase.ipc.CallTimeoutException: Call[id=263,methodName=Get], waitTime=60010ms, rpcTimeout=60000ms
+2025-04-25T08:28:25.117Z, RpcRetryingCaller{globalStartTime=2025-04-25T08:15:36.565Z, pause=100, maxAttempts=16}, org.apache.hadoop.hbase.ipc.CallTimeoutException: Call to address=node11:16020 failed on local exception: org.apache.hadoop.hbase.ipc.CallTimeoutException: Call[id=281,methodName=Get], waitTime=60005ms, rpcTimeout=60000ms
+2025-04-25T08:29:45.177Z, RpcRetryingCaller{globalStartTime=2025-04-25T08:15:36.565Z, pause=100, maxAttempts=16}, org.apache.hadoop.hbase.ipc.CallTimeoutException: Call to address=node11:16020 failed on local exception: org.apache.hadoop.hbase.ipc.CallTimeoutException: Call[id=301,methodName=Get], waitTime=60009ms, rpcTimeout=60000ms
+2025-04-25T08:31:05.257Z, RpcRetryingCaller{globalStartTime=2025-04-25T08:15:36.565Z, pause=100, maxAttempts=16}, org.apache.hadoop.hbase.ipc.CallTimeoutException: Call to address=node11:16020 failed on local exception: org.apache.hadoop.hbase.ipc.CallTimeoutException: Call[id=321,methodName=Get], waitTime=60010ms, rpcTimeout=60000ms
+2025-04-25T08:32:25.337Z, RpcRetryingCaller{globalStartTime=2025-04-25T08:15:36.565Z, pause=100, maxAttempts=16}, org.apache.hadoop.hbase.ipc.CallTimeoutException: Call to address=node11:16020 failed on local exception: org.apache.hadoop.hbase.ipc.CallTimeoutException: Call[id=341,methodName=Get], waitTime=60010ms, rpcTimeout=60000ms
+2025-04-25T08:33:45.447Z, RpcRetryingCaller{globalStartTime=2025-04-25T08:15:36.565Z, pause=100, maxAttempts=16}, org.apache.hadoop.hbase.ipc.CallTimeoutException: Call to address=node11:16020 failed on local exception: org.apache.hadoop.hbase.ipc.CallTimeoutException: Call[id=361,methodName=Get], waitTime=60003ms, rpcTimeout=60000ms
+
+	at org.apache.hadoop.hbase.client.RpcRetryingCallerImpl.callWithRetries(RpcRetryingCallerImpl.java:141)
+	at org.apache.hadoop.hbase.client.HTable.get(HTable.java:390)
+	at org.apache.hadoop.hbase.client.HTable.lambda$get$0(HTable.java:363)
+	at org.apache.hadoop.hbase.trace.TraceUtil.trace(TraceUtil.java:216)
+	at org.apache.hadoop.hbase.client.HTable.get(HTable.java:363)
+	at org.apache.hadoop.hbase.client.HTable.lambda$get$1(HTable.java:409)
+	at org.apache.hadoop.hbase.trace.TraceUtil.trace(TraceUtil.java:216)
+	at org.apache.hadoop.hbase.client.HTable.get(HTable.java:407)
+	at org.janusgraph.diskstorage.hbase.HBaseKeyColumnValueStore.getHelper(HBaseKeyColumnValueStore.java:198)
+	... 29 more
+Caused by: org.apache.hadoop.hbase.ipc.CallTimeoutException: Call to address=node11:16020 failed on local exception: org.apache.hadoop.hbase.ipc.CallTimeoutException: Call[id=361,methodName=Get], waitTime=60003ms, rpcTimeout=60000ms
+	at org.apache.hadoop.hbase.ipc.IPCUtil.wrapException(IPCUtil.java:222)
+	at org.apache.hadoop.hbase.ipc.AbstractRpcClient.onCallFinished(AbstractRpcClient.java:392)
+	at org.apache.hadoop.hbase.ipc.AbstractRpcClient.access$100(AbstractRpcClient.java:92)
+	at org.apache.hadoop.hbase.ipc.AbstractRpcClient$3.run(AbstractRpcClient.java:426)
+	at org.apache.hadoop.hbase.ipc.AbstractRpcClient$3.run(AbstractRpcClient.java:421)
+	at org.apache.hadoop.hbase.ipc.Call.setTimeout(Call.java:107)
+	at org.apache.hadoop.hbase.ipc.RpcConnection$1.run(RpcConnection.java:134)
+	at org.apache.hbase.thirdparty.io.netty.util.HashedWheelTimer$HashedWheelTimeout.run(HashedWheelTimer.java:715)
+	at org.apache.hbase.thirdparty.io.netty.util.concurrent.ImmediateExecutor.execute(ImmediateExecutor.java:34)
+	at org.apache.hbase.thirdparty.io.netty.util.HashedWheelTimer$HashedWheelTimeout.expire(HashedWheelTimer.java:703)
+	at org.apache.hbase.thirdparty.io.netty.util.HashedWheelTimer$HashedWheelBucket.expireTimeouts(HashedWheelTimer.java:790)
+	at org.apache.hbase.thirdparty.io.netty.util.HashedWheelTimer$Worker.run(HashedWheelTimer.java:503)
+	... 1 more
+Caused by: org.apache.hadoop.hbase.ipc.CallTimeoutException: Call[id=361,methodName=Get], waitTime=60003ms, rpcTimeout=60000ms
+	at org.apache.hadoop.hbase.ipc.RpcConnection$1.run(RpcConnection.java:135)
+	... 6 more
+org.janusgraph.core.JanusGraphException: Could not execute operation due to backend exception
+	at org.janusgraph.diskstorage.util.BackendOperation.execute(BackendOperation.java:54)
+	at org.janusgraph.diskstorage.BackendTransaction.executeRead(BackendTransaction.java:521)
+	at org.janusgraph.diskstorage.BackendTransaction.edgeStoreMultiQuery(BackendTransaction.java:300)
+	at org.janusgraph.graphdb.database.StandardJanusGraph.edgeMultiQuery(StandardJanusGraph.java:568)
+	at org.janusgraph.graphdb.transaction.StandardJanusGraphTx.lambda$executeMultiQuery$4(StandardJanusGraphTx.java:1252)
+	at org.janusgraph.graphdb.query.profile.QueryProfiler.profile(QueryProfiler.java:113)
+	at org.janusgraph.graphdb.query.profile.QueryProfiler.profile(QueryProfiler.java:105)
+	at org.janusgraph.graphdb.transaction.StandardJanusGraphTx.executeMultiQuery(StandardJanusGraphTx.java:1252)
+	at org.janusgraph.graphdb.query.vertex.MultiVertexCentricQueryBuilder.execute(MultiVertexCentricQueryBuilder.java:121)
+	at org.janusgraph.graphdb.query.vertex.MultiVertexCentricQueryBuilder.edges(MultiVertexCentricQueryBuilder.java:172)
+	at org.janusgraph.graphdb.tinkerpop.optimize.step.fetcher.VertexStepBatchFetcher.makeQueryAndExecute(VertexStepBatchFetcher.java:39)
+	at org.janusgraph.graphdb.tinkerpop.optimize.step.fetcher.MultiQueriableStepBatchFetcher.prefetchNextBatch(MultiQueriableStepBatchFetcher.java:112)
+	at org.janusgraph.graphdb.tinkerpop.optimize.step.fetcher.MultiQueriableStepBatchFetcher.fetchData(MultiQueriableStepBatchFetcher.java:96)
+	at org.janusgraph.graphdb.tinkerpop.optimize.step.JanusGraphVertexStep.flatMap(JanusGraphVertexStep.java:117)
+	at org.apache.tinkerpop.gremlin.process.traversal.step.map.FlatMapStep.processNextStart(FlatMapStep.java:49)
+	at org.apache.tinkerpop.gremlin.process.traversal.step.util.AbstractStep.next(AbstractStep.java:140)
+	at org.apache.tinkerpop.gremlin.process.traversal.step.util.AbstractStep.next(AbstractStep.java:40)
+	at org.apache.tinkerpop.gremlin.process.traversal.Traversal.fill(Traversal.java:184)
+	at org.apache.tinkerpop.gremlin.process.traversal.Traversal.toList(Traversal.java:122)
+	at entity.SG2_dec.processMidAddress(SG2_dec.java:100)
+	at entity.dec.main(dec.java:47)
+	at org.codehaus.mojo.exec.ExecJavaMojo$1.run(ExecJavaMojo.java:279)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.janusgraph.diskstorage.TemporaryBackendException: Could not successfully complete backend operation due to repeated temporary exceptions after PT8M20S
+	at org.janusgraph.diskstorage.util.BackendOperation.executeDirect(BackendOperation.java:98)
+	at org.janusgraph.diskstorage.util.BackendOperation.execute(BackendOperation.java:52)
+	... 22 more
+Caused by: org.janusgraph.diskstorage.TemporaryBackendException: Temporary failure in storage backend
+	at org.janusgraph.diskstorage.hbase.HBaseKeyColumnValueStore.getHelper(HBaseKeyColumnValueStore.java:230)
+	at org.janusgraph.diskstorage.hbase.HBaseKeyColumnValueStore.getSlice(HBaseKeyColumnValueStore.java:119)
+	at org.janusgraph.diskstorage.keycolumnvalue.KCVSProxy.getSlice(KCVSProxy.java:87)
+	at org.janusgraph.diskstorage.keycolumnvalue.cache.ExpirationKCVSCache.getSlice(ExpirationKCVSCache.java:122)
+	at org.janusgraph.diskstorage.BackendTransaction$2.call(BackendTransaction.java:303)
+	at org.janusgraph.diskstorage.BackendTransaction$2.call(BackendTransaction.java:300)
+	at org.janusgraph.diskstorage.util.BackendOperation.executeDirect(BackendOperation.java:66)
+	... 23 more
+Caused by: org.apache.hadoop.hbase.client.RetriesExhaustedException: Failed after attempts=16, exceptions:
+2025-04-25T08:34:53.589Z, RpcRetryingCaller{globalStartTime=2025-04-25T08:33:53.576Z, pause=100, maxAttempts=16}, org.apache.hadoop.hbase.ipc.CallTimeoutException: Call to address=node10:16020 failed on local exception: org.apache.hadoop.hbase.ipc.CallTimeoutException: Call[id=418,methodName=Get], waitTime=60011ms, rpcTimeout=60000ms
+2025-04-25T08:35:53.707Z, RpcRetryingCaller{globalStartTime=2025-04-25T08:33:53.576Z, pause=100, maxAttempts=16}, org.apache.hadoop.hbase.ipc.CallTimeoutException: Call to address=node10:16020 failed on local exception: org.apache.hadoop.hbase.ipc.CallTimeoutException: Call[id=434,methodName=Get], waitTime=60001ms, rpcTimeout=60000ms
+2025-04-25T08:36:53.917Z, RpcRetryingCaller{globalStartTime=2025-04-25T08:33:53.576Z, pause=100, maxAttempts=16}, org.apache.hadoop.hbase.ipc.CallTimeoutException: Call to address=node10:16020 failed on local exception: org.apache.hadoop.hbase.ipc.CallTimeoutException: Call[id=450,methodName=Get], waitTime=60004ms, rpcTimeout=60000ms
+2025-04-25T08:37:54.227Z, RpcRetryingCaller{globalStartTime=2025-04-25T08:33:53.576Z, pause=100, maxAttempts=16}, org.apache.hadoop.hbase.ipc.CallTimeoutException: Call to address=node10:16020 failed on local exception: org.apache.hadoop.hbase.ipc.CallTimeoutException: Call[id=466,methodName=Get], waitTime=60003ms, rpcTimeout=60000ms
+2025-04-25T08:38:54.747Z, RpcRetryingCaller{globalStartTime=2025-04-25T08:33:53.576Z, pause=100, maxAttempts=16}, org.apache.hadoop.hbase.ipc.CallTimeoutException: Call to address=node10:16020 failed on local exception: org.apache.hadoop.hbase.ipc.CallTimeoutException: Call[id=482,methodName=Get], waitTime=60009ms, rpcTimeout=60000ms
+2025-04-25T08:39:55.987Z, RpcRetryingCaller{globalStartTime=2025-04-25T08:33:53.576Z, pause=100, maxAttempts=16}, org.apache.hadoop.hbase.ipc.CallTimeoutException: Call to address=node10:16020 failed on local exception: org.apache.hadoop.hbase.ipc.CallTimeoutException: Call[id=498,methodName=Get], waitTime=60003ms, rpcTimeout=60000ms
+2025-04-25T08:40:58.017Z, RpcRetryingCaller{globalStartTime=2025-04-25T08:33:53.576Z, pause=100, maxAttempts=16}, org.apache.hadoop.hbase.ipc.CallTimeoutException: Call to address=node10:16020 failed on local exception: org.apache.hadoop.hbase.ipc.CallTimeoutException: Call[id=514,methodName=Get], waitTime=60006ms, rpcTimeout=60000ms
+2025-04-25T08:42:02.048Z, RpcRetryingCaller{globalStartTime=2025-04-25T08:33:53.576Z, pause=100, maxAttempts=16}, org.apache.hadoop.hbase.ipc.CallTimeoutException: Call to address=node10:16020 failed on local exception: org.apache.hadoop.hbase.ipc.CallTimeoutException: Call[id=531,methodName=Get], waitTime=60006ms, rpcTimeout=60000ms
+2025-04-25T08:43:12.107Z, RpcRetryingCaller{globalStartTime=2025-04-25T08:33:53.576Z, pause=100, maxAttempts=16}, org.apache.hadoop.hbase.ipc.CallTimeoutException: Call to address=node10:16020 failed on local exception: org.apache.hadoop.hbase.ipc.CallTimeoutException: Call[id=549,methodName=Get], waitTime=60001ms, rpcTimeout=60000ms
+2025-04-25T08:44:22.178Z, RpcRetryingCaller{globalStartTime=2025-04-25T08:33:53.576Z, pause=100, maxAttempts=16}, org.apache.hadoop.hbase.ipc.CallTimeoutException: Call to address=node10:16020 failed on local exception: org.apache.hadoop.hbase.ipc.CallTimeoutException: Call[id=567,methodName=Get], waitTime=60010ms, rpcTimeout=60000ms
+2025-04-25T08:45:32.294Z, RpcRetryingCaller{globalStartTime=2025-04-25T08:33:53.576Z, pause=100, maxAttempts=16}, org.apache.hadoop.hbase.ipc.CallTimeoutException: Call to address=node10:16020 failed on local exception: org.apache.hadoop.hbase.ipc.CallTimeoutException: Call[id=585,methodName=Get], waitTime=60003ms, rpcTimeout=60000ms
+2025-04-25T08:46:42.330Z, RpcRetryingCaller{globalStartTime=2025-04-25T08:33:53.576Z, pause=100, maxAttempts=16}, org.apache.hadoop.hbase.ipc.CallTimeoutException: Call to address=node10:16020 failed on local exception: org.apache.hadoop.hbase.ipc.CallTimeoutException: Call[id=603,methodName=Get], waitTime=60009ms, rpcTimeout=60000ms
+2025-04-25T08:48:02.508Z, RpcRetryingCaller{globalStartTime=2025-04-25T08:33:53.576Z, pause=100, maxAttempts=16}, org.apache.hadoop.hbase.ipc.CallTimeoutException: Call to address=node10:16020 failed on local exception: org.apache.hadoop.hbase.ipc.CallTimeoutException: Call[id=622,methodName=Get], waitTime=60010ms, rpcTimeout=60000ms
+2025-04-25T08:49:22.688Z, RpcRetryingCaller{globalStartTime=2025-04-25T08:33:53.576Z, pause=100, maxAttempts=16}, org.apache.hadoop.hbase.ipc.CallTimeoutException: Call to address=node10:16020 failed on local exception: org.apache.hadoop.hbase.ipc.CallTimeoutException: Call[id=642,methodName=Get], waitTime=60010ms, rpcTimeout=60000ms
+2025-04-25T08:50:42.897Z, RpcRetryingCaller{globalStartTime=2025-04-25T08:33:53.576Z, pause=100, maxAttempts=16}, org.apache.hadoop.hbase.ipc.CallTimeoutException: Call to address=node10:16020 failed on local exception: org.apache.hadoop.hbase.ipc.CallTimeoutException: Call[id=662,methodName=Get], waitTime=60003ms, rpcTimeout=60000ms
+2025-04-25T08:52:02.927Z, RpcRetryingCaller{globalStartTime=2025-04-25T08:33:53.576Z, pause=100, maxAttempts=16}, org.apache.hadoop.hbase.ipc.CallTimeoutException: Call to address=node10:16020 failed on local exception: org.apache.hadoop.hbase.ipc.CallTimeoutException: Call[id=682,methodName=Get], waitTime=60002ms, rpcTimeout=60000ms
+
+	at org.apache.hadoop.hbase.client.RpcRetryingCallerImpl.callWithRetries(RpcRetryingCallerImpl.java:141)
+	at org.apache.hadoop.hbase.client.HTable.get(HTable.java:390)
+	at org.apache.hadoop.hbase.client.HTable.lambda$get$0(HTable.java:363)
+	at org.apache.hadoop.hbase.trace.TraceUtil.trace(TraceUtil.java:216)
+	at org.apache.hadoop.hbase.client.HTable.get(HTable.java:363)
+	at org.apache.hadoop.hbase.client.HTable.lambda$get$1(HTable.java:409)
+	at org.apache.hadoop.hbase.trace.TraceUtil.trace(TraceUtil.java:216)
+	at org.apache.hadoop.hbase.client.HTable.get(HTable.java:407)
+	at org.janusgraph.diskstorage.hbase.HBaseKeyColumnValueStore.getHelper(HBaseKeyColumnValueStore.java:198)
+	... 29 more
+Caused by: org.apache.hadoop.hbase.ipc.CallTimeoutException: Call to address=node10:16020 failed on local exception: org.apache.hadoop.hbase.ipc.CallTimeoutException: Call[id=682,methodName=Get], waitTime=60002ms, rpcTimeout=60000ms
+	at org.apache.hadoop.hbase.ipc.IPCUtil.wrapException(IPCUtil.java:222)
+	at org.apache.hadoop.hbase.ipc.AbstractRpcClient.onCallFinished(AbstractRpcClient.java:392)
+	at org.apache.hadoop.hbase.ipc.AbstractRpcClient.access$100(AbstractRpcClient.java:92)
+	at org.apache.hadoop.hbase.ipc.AbstractRpcClient$3.run(AbstractRpcClient.java:426)
+	at org.apache.hadoop.hbase.ipc.AbstractRpcClient$3.run(AbstractRpcClient.java:421)
+	at org.apache.hadoop.hbase.ipc.Call.setTimeout(Call.java:107)
+	at org.apache.hadoop.hbase.ipc.RpcConnection$1.run(RpcConnection.java:134)
+	at org.apache.hbase.thirdparty.io.netty.util.HashedWheelTimer$HashedWheelTimeout.run(HashedWheelTimer.java:715)
+	at org.apache.hbase.thirdparty.io.netty.util.concurrent.ImmediateExecutor.execute(ImmediateExecutor.java:34)
+	at org.apache.hbase.thirdparty.io.netty.util.HashedWheelTimer$HashedWheelTimeout.expire(HashedWheelTimer.java:703)
+	at org.apache.hbase.thirdparty.io.netty.util.HashedWheelTimer$HashedWheelBucket.expireTimeouts(HashedWheelTimer.java:790)
+	at org.apache.hbase.thirdparty.io.netty.util.HashedWheelTimer$Worker.run(HashedWheelTimer.java:503)
+	... 1 more
+Caused by: org.apache.hadoop.hbase.ipc.CallTimeoutException: Call[id=682,methodName=Get], waitTime=60002ms, rpcTimeout=60000ms
+	at org.apache.hadoop.hbase.ipc.RpcConnection$1.run(RpcConnection.java:135)
+	... 6 more
+Over Processing Init Address
+
+
+发现 3 个匹配组：
+Over Processing Mid Address
+
+
+发现 961 个匹配组：
+Over Processing Init Address
+
+
+发现 3 个匹配组：
+Over Processing Mid Address
+
+
+发现 1917 个匹配组：
+Over Processing Init Address
+
+
+发现 3 个匹配组：
+Over Processing Mid Address
+
+
+发现 1917 个匹配组：
+Over Processing Init Address
+
+
+发现 4 个匹配组：
+Over Processing Mid Address
+
+
+发现 1940 个匹配组：
+Over Processing Init Address
+
+
+发现 4 个匹配组：
+Over Processing Mid Address
+
+
+发现 2003 个匹配组：
+Over Processing Init Address
+
+
+发现 4 个匹配组：
+Over Processing Mid Address
+
+
+发现 2003 个匹配组：
+Over Processing Init Address
+
+
+发现 4 个匹配组：
+Over Processing Mid Address
+
+
+发现 2173 个匹配组：
+Over Processing Init Address
+
+
+发现 4 个匹配组：
+Over Processing Mid Address
+
+
+发现 2489 个匹配组：
+Over Processing Init Address
+
+
+发现 4 个匹配组：
+Over Processing Mid Address
+
+
+发现 2494 个匹配组：
+Over Processing Init Address
+
+
+发现 4 个匹配组：
+Over Processing Mid Address
+
+
+发现 2494 个匹配组：
+[WARNING] thread Thread[Idle-Rpc-Conn-Sweeper-pool-0,5,entity.dec] was interrupted but is still alive after waiting at least 14997msecs
+[WARNING] thread Thread[Idle-Rpc-Conn-Sweeper-pool-0,5,entity.dec] will linger despite being asked to die via interruption
+[WARNING] thread Thread[RPCClient-NioEventLoopGroup-1-1,5,entity.dec] will linger despite being asked to die via interruption
+[WARNING] thread Thread[RpcClient-timer-pool-0,5,entity.dec] will linger despite being asked to die via interruption
+[WARNING] thread Thread[RPCClient-NioEventLoopGroup-1-2,5,entity.dec] will linger despite being asked to die via interruption
+[WARNING] thread Thread[RPCClient-NioEventLoopGroup-1-3,5,entity.dec] will linger despite being asked to die via interruption
+[WARNING] thread Thread[RPCClient-NioEventLoopGroup-1-4,5,entity.dec] will linger despite being asked to die via interruption
+[WARNING] thread Thread[RPCClient-NioEventLoopGroup-1-5,5,entity.dec] will linger despite being asked to die via interruption
+[WARNING] thread Thread[RPCClient-NioEventLoopGroup-1-6,5,entity.dec] will linger despite being asked to die via interruption
+[WARNING] thread Thread[RPCClient-NioEventLoopGroup-1-7,5,entity.dec] will linger despite being asked to die via interruption
+[WARNING] thread Thread[RPCClient-NioEventLoopGroup-1-8,5,entity.dec] will linger despite being asked to die via interruption
+[WARNING] thread Thread[RPCClient-NioEventLoopGroup-1-9,5,entity.dec] will linger despite being asked to die via interruption
+[WARNING] thread Thread[RPCClient-NioEventLoopGroup-1-10,5,entity.dec] will linger despite being asked to die via interruption
+[WARNING] thread Thread[RPCClient-NioEventLoopGroup-1-11,5,entity.dec] will linger despite being asked to die via interruption
+[WARNING] thread Thread[RPCClient-NioEventLoopGroup-1-12,5,entity.dec] will linger despite being asked to die via interruption
+[WARNING] thread Thread[ForkJoinPool.commonPool-worker-25,5,entity.dec] will linger despite being asked to die via interruption
+[WARNING] thread Thread[RPCClient-NioEventLoopGroup-1-13,5,entity.dec] will linger despite being asked to die via interruption
+[WARNING] thread Thread[RPCClient-NioEventLoopGroup-1-14,5,entity.dec] will linger despite being asked to die via interruption
+[WARNING] NOTE: 17 thread(s) did not finish despite being asked to via interruption. This is not a problem with exec:java, it is a problem with the running code. Although not serious, it should be remedied.
+[WARNING] Couldn't destroy threadgroup org.codehaus.mojo.exec.ExecJavaMojo$IsolatedThreadGroup[name=entity.dec,maxpri=10]
+java.lang.IllegalThreadStateException
+	at java.lang.ThreadGroup.destroy(ThreadGroup.java:778)
+	at org.codehaus.mojo.exec.ExecJavaMojo.execute(ExecJavaMojo.java:319)
+	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:134)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:207)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:153)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:145)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:116)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:80)
+	at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:51)
+	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:128)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:307)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:193)
+	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:106)
+	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:863)
+	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:288)
+	at org.apache.maven.cli.MavenCli.main(MavenCli.java:199)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:289)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:229)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:415)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:356)
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 40:46 min
+[INFO] Finished at: 2025-04-25T16:55:30+08:00
+[INFO] Final Memory: 6684M/19747M
+[INFO] ------------------------------------------------------------------------

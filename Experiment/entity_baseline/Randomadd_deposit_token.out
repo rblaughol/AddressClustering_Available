@@ -1,0 +1,164 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building entity 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- exec-maven-plugin:3.1.0:java (default-cli) @ entity ---
+Loaded 243 addresses from exchanges.csv
+Loaded 2416 addresses from miners_eth.txt
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/public/home/blockchain_2/slave2/.m2/repository/org/slf4j/slf4j-reload4j/1.7.36/slf4j-reload4j-1.7.36.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/public/home/blockchain_2/slave2/.m2/repository/org/apache/logging/log4j/log4j-slf4j-impl/2.17.1/log4j-slf4j-impl-2.17.1.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.Reload4jLoggerFactory]
+log4j:WARN No appenders could be found for logger (org.apache.commons.beanutils.converters.BooleanConverter).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+弱连通分量已写入文件: Randomadd_deposit_token/7fe3e4c89657b237c9d46ae48155646723de2225.out
+弱连通分量已写入文件: Randomadd_deposit_token/28a4ae6b043816053aad4f062336446228f653c7.out
+弱连通分量已写入文件: Randomadd_deposit_token/3c268297acf73084ccbe375eaf5be08f5f700d1a.out
+弱连通分量已写入文件: Randomadd_deposit_token/d69e03cff380d6e147059c0ed713b5b8b80472a8.out
+弱连通分量已写入文件: Randomadd_deposit_token/554422e77e528442b57c4a8d1242fb9bb7a602ef.out
+弱连通分量已写入文件: Randomadd_deposit_token/be05e2ba60585ef4b7f1cab8df77d9509cc70b0e.out
+弱连通分量已写入文件: Randomadd_deposit_token/76000fbd94a3052d8aa55eab089f0a06350bae2e.out
+弱连通分量已写入文件: Randomadd_deposit_token/8092dae704621d76f70829665c8524b7061a95a8.out
+弱连通分量已写入文件: Randomadd_deposit_token/4e4fadc1d3672445595836369118f7d1f73cca5f.out
+弱连通分量已写入文件: Randomadd_deposit_token/ebaaaa5c1cfd158dee931fafed4fa8eb161d07f8.out
+弱连通分量已写入文件: Randomadd_deposit_token/185df051eab6308827dd99570a06bcf01bff4b3e.out
+弱连通分量已写入文件: Randomadd_deposit_token/af3299872629dcfb32a2b9714afcb13bff0b7a7c.out
+弱连通分量已写入文件: Randomadd_deposit_token/ef150baf890f8e44c87748196f69724502240839.out
+弱连通分量已写入文件: Randomadd_deposit_token/7fc750d3ca678fe54545aefed2b68be414302c5b.out
+弱连通分量已写入文件: Randomadd_deposit_token/94eb319dbb73b2051ca472a0317772aea45fc98d.out
+弱连通分量已写入文件: Randomadd_deposit_token/3cceebc3d72c0636f49abf26db08f914868c7dc2.out
+弱连通分量已写入文件: Randomadd_deposit_token/90a5fe1524c300f9f482d73a2fa1a71592065806.out
+弱连通分量已写入文件: Randomadd_deposit_token/974064ed57081339d069749cfc9ae1e5b46d38ef.out
+弱连通分量已写入文件: Randomadd_deposit_token/f4abeb59dbcf41b06e201f6905e8cc3e6ae22905.out
+弱连通分量已写入文件: Randomadd_deposit_token/886c2f850946f461e008175be7ade583440fb97b.out
+弱连通分量已写入文件: Randomadd_deposit_token/998892d03f7348d16c4143e799fcfc8e3c8094b0.out
+弱连通分量已写入文件: Randomadd_deposit_token/4e19104897737e73338bb53a53cf8df2ee272e3c.out
+弱连通分量已写入文件: Randomadd_deposit_token/494841d385fb1564d6f87de28286d5b22578a9a1.out
+弱连通分量已写入文件: Randomadd_deposit_token/a5fab703576a648be0c734858f62b0009d00fb25.out
+弱连通分量已写入文件: Randomadd_deposit_token/aeb7c1c2b6a91f3ffcc9af3445baa44a2852a546.out
+弱连通分量已写入文件: Randomadd_deposit_token/b29530f831752d9e2ea92e063f136d53b4af0103.out
+弱连通分量已写入文件: Randomadd_deposit_token/7b1d99e5f03cb7551c653782df4153cd6171fe27.out
+弱连通分量已写入文件: Randomadd_deposit_token/aa21d7f3d0b344045e33edd2884ef51db6c491c7.out
+弱连通分量已写入文件: Randomadd_deposit_token/29757011e9bb9635915d04e7685e5a24642db219.out
+弱连通分量已写入文件: Randomadd_deposit_token/c7d763349efac3323482085d96d11950a7a6a353.out
+弱连通分量已写入文件: Randomadd_deposit_token/16e8df2b6ade55d810f4b8fe8b7461ffec3f05b8.out
+弱连通分量已写入文件: Randomadd_deposit_token/8229ce3c493be924ef7c5289a5ced54ac76b6bc8.out
+弱连通分量已写入文件: Randomadd_deposit_token/ecc1df821fe77e419589ef3e3e5b9f50e5a4df02.out
+弱连通分量已写入文件: Randomadd_deposit_token/07a67a2b4479fb6554da75ee2db06a68b914f9d6.out
+弱连通分量已写入文件: Randomadd_deposit_token/ee21c8541532c4688577e4f30831b49afb467e4a.out
+弱连通分量已写入文件: Randomadd_deposit_token/c24ea46bb206a1aa504eef0aad8c80bd28cc510c.out
+弱连通分量已写入文件: Randomadd_deposit_token/18e495dbdbaea1905ab030365fbd4338787df5e6.out
+弱连通分量已写入文件: Randomadd_deposit_token/8f45e771fb2ffd7917a40363e877346d1fd6dd7e.out
+弱连通分量已写入文件: Randomadd_deposit_token/cf7fbb4861e91365bfcdbb84158721963f0f5ed7.out
+弱连通分量已写入文件: Randomadd_deposit_token/3794a6bd40b723365460c173e88c5b0a3d207ed1.out
+弱连通分量已写入文件: Randomadd_deposit_token/f34c298866e6e53da9e7398fd0379fbb71850eae.out
+弱连通分量已写入文件: Randomadd_deposit_token/b077556e497a1680ba3406b34a11a870f1bcd827.out
+弱连通分量已写入文件: Randomadd_deposit_token/e9fb036742675f9410d0914628e6bb1709521c97.out
+弱连通分量已写入文件: Randomadd_deposit_token/8cd2aba003f58cd4fefe3f6844da89e223f4d0f8.out
+弱连通分量已写入文件: Randomadd_deposit_token/e8223f7368db6a9be0d383f980bc7d549039add9.out
+弱连通分量已写入文件: Randomadd_deposit_token/8b417a6f00f5b77a5c0fc42e8f4ebcf03b2735a9.out
+弱连通分量已写入文件: Randomadd_deposit_token/cc9d24b6bc1af77f9d1dbb00c681bbf04a2cab57.out
+弱连通分量已写入文件: Randomadd_deposit_token/0262bf82a7da84a710d445b3408bfb0bc49a2513.out
+弱连通分量已写入文件: Randomadd_deposit_token/d6b7bd5c43c43209fbe2c1fb36268d8583b12a11.out
+弱连通分量已写入文件: Randomadd_deposit_token/a781beacc85134fbedda5fa2d3dbe4d57738af5e.out
+弱连通分量已写入文件: Randomadd_deposit_token/57ab4abb4021aa4a7a92ef1f713b0539b2e9e886.out
+弱连通分量已写入文件: Randomadd_deposit_token/1205a917d4fc91e919fc1d0c8e6a04a79a59c1cd.out
+弱连通分量已写入文件: Randomadd_deposit_token/f02305b0ccf1db5cd6493c01a09ef6b21e927849.out
+弱连通分量已写入文件: Randomadd_deposit_token/6da6b4a67d59d67706c4efb3f5fdc0dc740b2c70.out
+弱连通分量已写入文件: Randomadd_deposit_token/217cb8c1dcf0f21e06c56afaa5be5dd2a7b0211d.out
+弱连通分量已写入文件: Randomadd_deposit_token/051f106e266afec5b0306665083dfcbf24609291.out
+弱连通分量已写入文件: Randomadd_deposit_token/436284889773a1149d0e23d6355a701a9cd03471.out
+弱连通分量已写入文件: Randomadd_deposit_token/b790553e627ea987ff57701418067046061302e8.out
+弱连通分量已写入文件: Randomadd_deposit_token/e7de6e6c4579ec58b16f6917806a215ba39ad5ee.out
+弱连通分量已写入文件: Randomadd_deposit_token/a1380d748623224f3786d824bdbbfc66c20fbbb5.out
+弱连通分量已写入文件: Randomadd_deposit_token/cc5489e6c26366ac346de03622d2067d60505766.out
+弱连通分量已写入文件: Randomadd_deposit_token/63e0403cb82ad0be39fb9440bb776b4ddec67515.out
+弱连通分量已写入文件: Randomadd_deposit_token/1cd8e08bc03f9747ae3b0beb926fbc23038f6db1.out
+弱连通分量已写入文件: Randomadd_deposit_token/845a9ee5f0028dfa32544fdbac88364b819419e7.out
+弱连通分量已写入文件: Randomadd_deposit_token/d6d48f5eb0ac564ec64e2ba645295e6a5654621b.out
+弱连通分量已写入文件: Randomadd_deposit_token/724587d9e4d2e5ff1218e51f91539d22428a4a40.out
+弱连通分量已写入文件: Randomadd_deposit_token/ce4a8a4fa80413be51c42a7841c114fe58071213.out
+弱连通分量已写入文件: Randomadd_deposit_token/321cff7780484aca2db207a9f706b93feb34bea5.out
+弱连通分量已写入文件: Randomadd_deposit_token/bc296a8bea420abdc39a04fe407d6d4dcb721965.out
+弱连通分量已写入文件: Randomadd_deposit_token/21ef0d6449a18f9a91d7e2778604509514385e70.out
+弱连通分量已写入文件: Randomadd_deposit_token/2920d8e1ec52149134e401c5469e15b116cf1921.out
+弱连通分量已写入文件: Randomadd_deposit_token/a8afb77416481565fbee7e366677940de620b280.out
+弱连通分量已写入文件: Randomadd_deposit_token/d05a652acf857215815a2c15ba3dfe905e517487.out
+弱连通分量已写入文件: Randomadd_deposit_token/5c420a76769b6c2bc426ea676d612f98d290371e.out
+弱连通分量已写入文件: Randomadd_deposit_token/42e044fd1e30425647a5da8e952a61f67cec08f1.out
+弱连通分量已写入文件: Randomadd_deposit_token/28af10f8595423ac4bf483ed0365c2f6dd697fd0.out
+弱连通分量已写入文件: Randomadd_deposit_token/1c0e37125e867406ecc644d56c7ea6c2c2514f62.out
+弱连通分量已写入文件: Randomadd_deposit_token/63721e9f15514b888a0fc265582f9e25b39d6ca2.out
+弱连通分量已写入文件: Randomadd_deposit_token/9aaf89f8ed0911e0ac746c41f6255eec4ca11a09.out
+弱连通分量已写入文件: Randomadd_deposit_token/75a31e74af8418a41cffa57a0ce22d32d861da5b.out
+弱连通分量已写入文件: Randomadd_deposit_token/bdf6e68c0cd7584080e847d72cbb23aad46aeb1d.out
+弱连通分量已写入文件: Randomadd_deposit_token/6307af3d0c6bd267254b40c9b55e56ca219dcd0c.out
+弱连通分量已写入文件: Randomadd_deposit_token/d717f8462d17348f24fead190c69bf143d151cfd.out
+弱连通分量已写入文件: Randomadd_deposit_token/62af6df9797f3a36a31e4f511fb2fe3abb2dab23.out
+弱连通分量已写入文件: Randomadd_deposit_token/736d2f24f2a8805217b35b5a30dcd047191d7293.out
+弱连通分量已写入文件: Randomadd_deposit_token/c44b2097aedef0a5b7e9ed78fb6368bde3333eb5.out
+弱连通分量已写入文件: Randomadd_deposit_token/0121d2234757228672a7f160828b37e5b7d2e80a.out
+弱连通分量已写入文件: Randomadd_deposit_token/4263983feeafa40514e29d6f879613fe39eea4e1.out
+弱连通分量已写入文件: Randomadd_deposit_token/c6df20dbe317351dadfd408f80f9bc25f24caeda.out
+弱连通分量已写入文件: Randomadd_deposit_token/4be74bc187f480aee54ace43e3d5c7949c8c2649.out
+弱连通分量已写入文件: Randomadd_deposit_token/09504756e783ccbcdc342c36177b4d0cfc216792.out
+弱连通分量已写入文件: Randomadd_deposit_token/c9f1625e65cda7a2ae5ea1edf0107872a1baac99.out
+弱连通分量已写入文件: Randomadd_deposit_token/7901876f62477e4e877ee3822e8d96d0265ac3e0.out
+弱连通分量已写入文件: Randomadd_deposit_token/a20f3e3f9ec68f6cd27d3cd20723f929a8a5db51.out
+弱连通分量已写入文件: Randomadd_deposit_token/feaca2ac74624bf348dac9985143cfd652a4be55.out
+弱连通分量已写入文件: Randomadd_deposit_token/e9814532e20a3f17409d4257b66a809a037f43be.out
+弱连通分量已写入文件: Randomadd_deposit_token/60305a4838a55d9d7c0aaee3bf9db7bf9668a1ca.out
+弱连通分量已写入文件: Randomadd_deposit_token/793412651a4bf9445106216c87ad2d000421fbeb.out
+弱连通分量已写入文件: Randomadd_deposit_token/dfd83208203a21473b262a21d6af894d55ee43da.out
+弱连通分量已写入文件: Randomadd_deposit_token/d934cb1dad1c24a7f9264ab385258fc5e92e5134.out
+弱连通分量已写入文件: Randomadd_deposit_token/7f1ccc1836b1392373d093df943798aab940b9de.out
+[WARNING] thread Thread[Idle-Rpc-Conn-Sweeper-pool-0,5,entity.deposit_token] was interrupted but is still alive after waiting at least 15000msecs
+[WARNING] thread Thread[Idle-Rpc-Conn-Sweeper-pool-0,5,entity.deposit_token] will linger despite being asked to die via interruption
+[WARNING] thread Thread[RPCClient-NioEventLoopGroup-1-1,5,entity.deposit_token] will linger despite being asked to die via interruption
+[WARNING] thread Thread[RpcClient-timer-pool-0,5,entity.deposit_token] will linger despite being asked to die via interruption
+[WARNING] thread Thread[RPCClient-NioEventLoopGroup-1-2,5,entity.deposit_token] will linger despite being asked to die via interruption
+[WARNING] thread Thread[RPCClient-NioEventLoopGroup-1-3,5,entity.deposit_token] will linger despite being asked to die via interruption
+[WARNING] thread Thread[RPCClient-NioEventLoopGroup-1-4,5,entity.deposit_token] will linger despite being asked to die via interruption
+[WARNING] thread Thread[RPCClient-NioEventLoopGroup-1-5,5,entity.deposit_token] will linger despite being asked to die via interruption
+[WARNING] thread Thread[RPCClient-NioEventLoopGroup-1-6,5,entity.deposit_token] will linger despite being asked to die via interruption
+[WARNING] thread Thread[RPCClient-NioEventLoopGroup-1-7,5,entity.deposit_token] will linger despite being asked to die via interruption
+[WARNING] thread Thread[RPCClient-NioEventLoopGroup-1-8,5,entity.deposit_token] will linger despite being asked to die via interruption
+[WARNING] thread Thread[RPCClient-NioEventLoopGroup-1-9,5,entity.deposit_token] will linger despite being asked to die via interruption
+[WARNING] NOTE: 11 thread(s) did not finish despite being asked to via interruption. This is not a problem with exec:java, it is a problem with the running code. Although not serious, it should be remedied.
+[WARNING] Couldn't destroy threadgroup org.codehaus.mojo.exec.ExecJavaMojo$IsolatedThreadGroup[name=entity.deposit_token,maxpri=10]
+java.lang.IllegalThreadStateException
+	at java.lang.ThreadGroup.destroy(ThreadGroup.java:778)
+	at org.codehaus.mojo.exec.ExecJavaMojo.execute(ExecJavaMojo.java:319)
+	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:134)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:207)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:153)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:145)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:116)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:80)
+	at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:51)
+	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:128)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:307)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:193)
+	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:106)
+	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:863)
+	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:288)
+	at org.apache.maven.cli.MavenCli.main(MavenCli.java:199)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:289)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:229)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:415)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:356)
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 04:20 min
+[INFO] Finished at: 2025-05-15T18:36:14+08:00
+[INFO] Final Memory: 263M/7488M
+[INFO] ------------------------------------------------------------------------
