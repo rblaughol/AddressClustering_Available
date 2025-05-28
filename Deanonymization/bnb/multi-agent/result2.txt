@@ -1,0 +1,705 @@
+You: **Given Data:**
+Ankr (ANKR)
+Binance: Hot Wallet 20
+mexc.com 2
+Null: 0x000...007
+Bestswap Token (BEST)
+UNCX Network: Deployer
+TFL Token (TFL)
+JNTR/b (JNTR/b)
+Jointer (JNTR)
+MXC BEP20 (MXC)
+Hotbit
+Travala.com Token (AVA)
+Nether.Network (NN)
+DANGO (DANGO)
+ACryptoS (ACS)
+Anyswap: Deployer 4
+ChainLink-ERC20 (anyLINK)
+DAI-ERC20 (anyDAI)
+YFI-ERC20 (anyYFI)
+OMG-ERC20 (anyOMG)
+COMP-ERC20 (anyCOMP)
+ANY Ethereum (anyETH)
+USDT-ERC20 (anyUSDT)
+Happiness: Old HPS Token
+Chainlink: BNB/USD Price Feed
+HARD (HARD)
+renFIL (renFIL)
+renDGB (renDGB)
+renDOGE (renDOGE)
+renLUNA (renLUNA)
+Anyswap: anyFSN Token
+Big Prom 30 (PROM)
+Thugs: Old THUGS Token
+YFCSilver (YFCS)
+Cubiex (CBIX)
+AscendEX Hot Wallet
+Null: 0xbBb...BbB
+Validator: Avengers
+Anyswap: Deployer 3
+ANY Bitcoin (anyBTC)
+Burger Swap (BURGER)
+Null: 0x000...003
+Validator: Sigm8
+Validator: Nozti
+Validator: Namelix
+Validator: Nariox
+Validator: Tiollo
+Validator: Coinlix
+Validator: Glorin
+Validator: Seoraksan
+Validator: Defibit
+Validator: Ciscox
+Validator: Leapbnb
+Validator: Everest
+Binance: WBNB Token
+Validator: Aconcagua
+Validator: Piececoin
+Validator: Ararat
+Validator: Raptas
+Validator: NodeReal
+Validator: Kita
+Validator: Pexmons
+Validator: Stakepulse
+Validator: Fuji
+DegenSwap: Old DEGEN Token
+BSCswap: BSWAP Token
+Gate.io
+JULb (JULb)
+VIDT Datalink: Old VIDT Token
+Swipe (SXP)
+Venus (XVS)
+fry.world (FRIES)
+FryWorld: Staking Contract
+fry.Ketchup (KHP)
+Trust Wallet (TWT)
+BscScan: Donate
+Binance-Peg Basic Attention Token (BAT)
+Binance-Peg Synthetix Network Token (SNX)
+Binance-Peg yearn.finance (YFI)
+Binance-Peg Uniswap (UNI)
+Binance-Peg Filecoin (FIL)
+Vice.Uno (VICE)
+CertiK Token (CTK)
+Chess (Chess)
+beergarden.finance (Beer)
+Validator: BNB48 Club
+BLinkToken (blink)
+Cream Dai Token (crDAI)
+Cream Tezos Token (crXTZ)
+Cream Filecoin (crFIL)
+Cream XRP (crXRP)
+Cream Ethereum Token (crETH)
+Cream Litecoin Token (crLTC)
+Cream Tether USD (crUSDT)
+Cream YFI (crYFI)
+Cream Uniswap (crUNI)
+Cream Cosmos Token (crATOM)
+Cream USD Coin (crUSDC)
+Cream ChainLink Token (crLINK)
+Cream (CREAM)
+Cream Polkadot Token (crDOT)
+Cream BNB (crBNB)
+Cream BTCB Token (crBTCB)
+Cream Cardano Token (crADA)
+Cream Cream (crCREAM)
+Cream Band Protocol Token (crBAND)
+Cream EOS Token (crEOS)
+StableX Token (STAX)
+AlphaToken (ALPHA)
+Zeedex: Old ZDEXb Token
+mexc.com
+InnovativeBioresearchCoin (INNBC)
+Null: 0x666...666
+The Force Token (FOR)
+LTO Network (LTO)
+Nyanswop Token (NYA)
+MATH Token (MATH)
+PLANET (PLNT)
+AnonymousMask.Finance: MASK Token
+bZx: Deployer
+Binance-Peg BTCB Token (BTCB)
+Binance-Peg BUSD Token (BUSD)
+Prometeus (PROM)
+Binance: Hot Wallet
+Binance-Peg BSC-USD (BSC-USD)
+Binance-Peg ChainLink Token (LINK)
+Binance-Peg Cardano Token (ADA)
+Binance-Peg Band Protocol Token (BAND)
+Binance-Peg Bitcoin Cash Token (BCH)
+Binance-Peg Dai Token (DAI)
+Binance-Peg Polkadot Token (DOT)
+Binance-Peg Ethereum Token (ETH)
+Binance-Peg Litecoin Token (LTC)
+Binance-Peg Ontology Token (ONT)
+Binance-Peg XRP Token (XRP)
+Binance-Peg Tezos Token (XTZ)
+Binance-Peg EOS Token (EOS)
+Binance-Peg Cosmos Token (ATOM)
+Binance-Peg YFII.finance Token (YFII)
+Binance-Peg Zcash Token (ZEC)
+Null: 0x000...dEaD
+Anyswap-BEP20 (ANY)
+PancakeSwap Token (Cake)
+SyrupBar Token (SYRUP)
+BNB48 Club Token (KOGE)
+LuckCoin (LUCK)
+Binance-Peg Compound Coin (COMP)
+Binance-Peg ELF Token (ELF)
+Binance-Peg IoTeX Network (IOTX)
+Binance-Peg Token Club (TCT)
+LegendXtoken (LGX)
+ONO LEND (ONO)
+NAR Dividend Token (GEM)
+Dego.Finance: Old DEGO Token
+Binance-Peg NEAR Protocol (NEAR)
+Binance-Peg Paxos Standard (PAX)
+Binance-Peg USD Coin (USDC)
+Binance-Peg PAX Gold (PAXG)
+candyland.finance (CANDY)
+Uniswap Finance (UNFI)
+
+
+Above are all the names in the blockchain.
+
+---
+
+**Task Objective:**  
+The task is to deanonymize Ethereum entities based on the names of addresses. An entity may have multiple addresses with multiple names.
+According to the "Given Strategies", give me the output.
+
+---
+
+**Input Example:**  
+The input data has been given. I have send to you.
+
+**Expected Output:**  
+```json
+{
+  "Entity1": ["name1", "name2"],
+  "EntityB": ["name3"]
+}
+```
+
+---
+**Given Strategies:**  
+Grouping Ethereum Address Names
+
+1. **Data Preparation**:
+   - Extract all unique names from the provided data set.
+   - Identify common patterns, keywords, and structures that may indicate associations.
+
+2. **Pattern Identification**:
+   - Use similarity heuristics to recognize common prefixes, suffixes, or repeated keywords (e.g., "Bitfinex: Deployer", "Kraken").
+   - Apply pattern recognition techniques like regular expressions or string matching to group similar names.
+
+3. **Grouping Based on Patterns**:
+   - Create initial groups by pairing names with clear similarities.
+   - Expand these groups iteratively by incorporating additional names that share common elements.
+
+4. **Contextual Analysis**:
+   - Examine the context of each name to identify roles (e.g., "Old Address", "Deployer") or services, aiding in accurate grouping.
+   - Use any available external data sources for validation if possible.
+
+5. **Iterative Refinement**:
+   - Continuously refine groups by re-evaluating and updating based on new insights or discovered patterns.
+   - Consider edge cases where names might belong to multiple entities due to partnerships or shared services.
+
+6. **Manual Review and Curation**:
+   - Conduct manual reviews for ambiguous groupings, using known information about Ethereum operations to aid decision-making.
+
+7. **Final Mapping**:
+   - Assign a unique identifier to each cluster, ensuring each name is assigned to the most appropriate entity.
+   - Prepare a final mapping of entities to their associated names.
+
+8. **Output Generation**:
+   - Format the results into a structured JSON output where each key represents an entity and the value is a list of its associated names.
+
+This strategy combines systematic pattern recognition with iterative refinement and manual oversight, ensuring accurate and comprehensive grouping of Ethereum address names under their respective entities.
+
+---
+
+**Instruction for You:** **Attention!**
+Please give me the complete de-anonymised results. 
+Attention! 
+All results I would like to get full name.
+My task is to de-anonymise rather than categorise.
+For example, all names containing the same or similar characters (such as "Binance-Peg", "Cream Tokens" and "Validator") belongs to a separate entity.
+
+---
+
+
+Ollama: ```json
+{
+"Binance": [
+"Binance: Hot Wallet 20",
+"Binance: WBNB Token",
+"Binance-Peg Basic Attention Token (BAT)",
+"Binance-Peg Synthetix Network Token (SNX)",
+"Binance-Peg yearn.finance (YFI)",
+"Binance-Peg Uniswap (UNI)",
+"Binance-Peg Filecoin (FIL)",
+"Binance-Peg BTCB Token (BTCB)",
+"Binance-Peg BUSD Token (BUSD)",
+"Binance: Hot Wallet",
+"Binance-Peg BSC-USD (BSC-USD)",
+"Binance-Peg ChainLink Token (LINK)",
+"Binance-Peg Cardano Token (ADA)",
+"Binance-Peg Band Protocol Token (BAND)",
+"Binance-Peg Bitcoin Cash Token (BCH)",
+"Binance-Peg Dai Token (DAI)",
+"Binance-Peg Polkadot Token (DOT)",
+"Binance-Peg Ethereum Token (ETH)",
+"Binance-Peg Litecoin Token (LTC)",
+"Binance-Peg Ontology Token (ONT)",
+"Binance-Peg XRP Token (XRP)",
+"Binance-Peg Tezos Token (XTZ)",
+"Binance-Peg EOS Token (EOS)",
+"Binance-Peg Cosmos Token (ATOM)",
+"Binance-Peg YFII.finance Token (YFII)",
+"Binance-Peg Zcash Token (ZEC)"
+],
+"Ankr": [
+"Ankr (ANKR)"
+],
+"mexc.com": [
+"mexc.com 2",
+"mexc.com"
+],
+"Null": [
+"Null: 0x000...007",
+"Null: 0xbBb...BbB",
+"Null: 0x000...003"
+],
+"Validator": [
+"Validator: Avengers",
+"Validator: Sigm8",
+"Validator: Nozti",
+"Validator: Namelix",
+"Validator: Nariox",
+"Validator: Tiollo",
+"Validator: Coinlix",
+"Validator: Glorin",
+"Validator: Seoraksan",
+"Validator: Defibit",
+"Validator: Ciscox",
+"Validator: Leapbnb",
+"Validator: Everest",
+"Validator: Aconcagua",
+"Validator: Piececoin",
+"Validator: Ararat",
+"Validator: Raptas",
+"Validator: NodeReal",
+"Validator: Kita",
+"Validator: Pexmons",
+"Validator: Stakepulse",
+"Validator: Fuji",
+"Validator: BNB48 Club"
+
+],
+"Anyswap": [
+"Anyswap: Deployer 4",
+"Anyswap: anyFSN Token",
+"Anyswap: Deployer 3",
+"Anyswap-BEP20 (ANY)"
+
+],
+"Chainlink": [
+"Chainlink: BNB/USD Price Feed"
+],
+"renFIL": [
+"renFIL"
+],
+"renDGB": [
+"renDGB"
+],
+"renDOGE": [
+"renDOGE"
+],
+"renLUNA": [
+"renLUNA"
+],
+
+"ANY Ethereum": [
+"ANY Ethereum (anyETH)"
+],
+
+"DegenSwap": [
+"DegenSwap: Old DEGEN Token"
+
+],
+
+
+"BSCswap": [
+"BSCswap: BSWAP Token"
+],
+"Gate.io": [
+"Gate.io"
+],
+"Swipe": [
+"Swipe (SXP)"
+],
+"Venus": [
+"Venus (XVS)"
+
+],
+"fry.world": [
+"fry.world (FRIES)",
+"fry.Ketchup (KHP)"
+],
+
+"Trust Wallet": [
+"Trust Wallet (TWT)"
+
+],
+
+"BscScan": [
+"BscScan: Donate"
+
+
+],
+
+
+
+"Vice.Uno": [
+"Vice.Uno (VICE)"
+
+],
+
+"CertiK Token": [
+"CertiK Token (CTK)"
+
+],
+
+"Chess": [
+"Chess"
+],
+"beergarden.finance": [
+"beergarden.finance (Beer)"
+
+],
+
+
+"Cream Dai Token": [
+"Cream Dai Token (crDAI)",
+
+],
+"Cream Tezos Token": [
+"Cream Tezos Token (crXTZ)"
+],
+
+"Cream Filecoin": [
+"Cream Filecoin (crFIL)"
+],
+"Cream XRP": [
+"Cream XRP (crXRP)"
+],
+
+
+"Cream Ethereum Token": [
+"Cream Ethereum Token (crETH)"
+],
+
+"Cream Litecoin Token": [
+"Cream Litecoin Token (crLTC)"
+],
+"Cream Tether USD": [
+
+"Cream Tether USD (crUSDT)"
+
+],
+"Cream YFI": [
+"Cream YFI (crYFI)",
+
+
+],
+"Cream Uniswap": [
+"Cream Uniswap (crUNI)"
+],
+
+
+
+"Cream Cosmos Token": [
+"Cream Cosmos Token (crATOM)"
+
+
+],
+"Cream USD Coin": [
+"Cream USD Coin (crUSDC)"
+
+],
+
+"Cream ChainLink Token": [
+"Cream ChainLink Token (crLINK)",
+
+
+],
+
+"Cream": [
+
+"Cream (CREAM)"
+],
+
+
+
+"Cream Polkadot Token": [
+"Cream Polkadot Token (crDOT)",
+
+],
+"Cream BNB": [
+"Cream BNB (crBNB)"
+
+],
+"Cream BTCB Token": [
+"Cream BTCB Token (crBTCB)"
+
+
+],
+
+"Cream Cardano Token": [
+
+"Cream Cardano Token (crADA)"
+],
+
+
+
+"Cream Cream": [
+"Cream Cream (crCREAM)"
+],
+
+"Cream Band Protocol Token": [
+"Cream Band Protocol Token (crBAND)",
+
+],
+"Cream EOS Token": [
+"Cream EOS Token (crEOS)"
+
+
+],
+
+"StableX Token": [
+"StableX Token (STAX)"
+
+
+
+],
+
+"AlphaToken": [
+"AlphaToken (ALPHA)"
+],
+
+
+"Zeedex": [
+
+"Zeedex: Old ZDEXb Token"
+
+],
+
+
+
+
+"InnovativeBioresearchCoin": [
+
+"InnovativeBioresearchCoin (INNBC)"
+
+
+
+],
+"The Force Token": [
+"The Force Token (FOR)",
+
+],
+
+"LTO Network": [
+"LTO Network (LTO)"
+
+
+],
+"Nyanswop Token": [
+"Nyanswop Token (NYA)"
+
+],
+
+"MATH Token": [
+"MATH Token (MATH)"
+
+],
+
+
+
+"PLANET": [
+
+"PLANET (PLNT)",
+
+],
+
+
+
+
+"AnonymousMask.Finance": [
+"AnonymousMask.Finance: MASK Token"
+
+
+],
+
+"bZx": [
+
+"bZx: Deployer"
+]
+
+
+,
+"Prometeus": [
+"Prometeus (PROM)"
+
+
+
+],
+"Dego.Finance": [
+"Dego.Finance: Old DEGO Token"
+
+],
+"LuckCoin": [
+"LuckCoin (LUCK)",
+
+
+
+
+],
+
+
+
+"Big Prom 30": [
+
+"Big Prom 30 (PROM)"
+
+
+
+],
+
+
+"Thugs": [
+
+"Thugs: Old THUGS Token"
+
+]
+
+,"YFCSilver": ["YFCSilver (YFCS)"],
+"Cubiex": [
+
+"Cubiex (CBIX)",
+
+],
+
+
+
+"AscendEX Hot Wallet": [
+ "AscendEX Hot Wallet"
+
+ ],
+
+
+
+
+"Happiness": [
+
+
+"Happiness: Old HPS Token"
+
+
+
+]
+
+,
+
+
+
+
+ "VIDT Datalink": [
+
+ "VIDT Datalink: Old VIDT Token"
+
+
+
+]
+
+ ,"JULb": [
+
+"JULb (JULb)"
+
+],
+
+
+
+"BLinkToken": [
+"BLinkToken (blink)
+
+
+"
+
+],
+
+
+
+
+"PancakeSwap Token": [
+
+"PancakeSwap Token (Cake)"
+
+
+
+],
+
+
+
+"SyrupBar Token": [
+
+"SyrupBar Token (SYRUP)",
+
+]
+
+
+
+,"BNB48 Club Token": [
+
+"BNB48 Club Token (KOGE)"],
+"candyland.finance": [
+
+
+"candyland.finance (CANDY)"
+
+
+
+],
+
+
+
+
+"Uniswap Finance": [
+
+"Uniswap Finance (UNFI)"
+
+
+
+],
+"LegendXtoken": [
+"LegendXtoken (LGX)"
+
+],
+
+"ONO LEND": [
+ "ONO LEND (ONO)"],
+
+
+
+"NAR Dividend Token": [
+"NAR Dividend Token (GEM)"
+
+
+]
+
+}
+
+
+```

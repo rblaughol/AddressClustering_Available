@@ -1,0 +1,303 @@
+{
+  "Binance-Peg Tokens": [
+    "Binance-Peg Basic Attention Token (BAT)",
+    "Binance-Peg Synthetix Network Token (SNX)",
+    "Binance-Peg yearn.finance (YFI)",
+    "Binance-Peg Uniswap (UNI)",
+    "Binance-Peg Filecoin (FIL)",
+    "Binance-Peg BTCB Token (BTCB)",
+    "Binance-Peg BUSD Token (BUSD)",
+    "Binance-Peg BSC-USD (BSC-USD)",
+    "Binance-Peg ChainLink Token (LINK)",
+    "Binance-Peg Cardano Token (ADA)",
+    "Binance-Peg Band Protocol Token (BAND)",
+    "Binance-Peg Bitcoin Cash Token (BCH)",
+    "Binance-Peg Dai Token (DAI)",
+    "Binance-Peg Polkadot Token (DOT)",
+    "Binance-Peg Ethereum Token (ETH)",
+    "Binance-Peg Litecoin Token (LTC)",
+    "Binance-Peg Ontology Token (ONT)",
+    "Binance-Peg XRP Token (XRP)",
+    "Binance-Peg Tezos Token (XTZ)",
+    "Binance-Peg EOS Token (EOS)",
+    "Binance-Peg Cosmos Token (ATOM)",
+    "Binance-Peg YFII.finance Token (YFII)",
+    "Binance-Peg Zcash Token (ZEC)",
+    "Binance-Peg Compound Coin (COMP)",
+    "Binance-Peg ELF Token (ELF)",
+    "Binance-Peg IoTeX Network (IOTX)",
+    "Binance-Peg Token Club (TCT)",
+    "Binance-Peg NEAR Protocol (NEAR)",
+    "Binance-Peg Paxos Standard (PAX)",
+    "Binance-Peg USD Coin (USDC)",
+    "Binance-Peg PAX Gold (PAXG)"
+  ],
+  "Cream Tokens": [
+    "Cream Dai Token (crDAI)",
+    "Cream Tezos Token (crXTZ)",
+    "Cream Filecoin (crFIL)",
+    "Cream XRP (crXRP)",
+    "Cream Ethereum Token (crETH)",
+    "Cream Litecoin Token (crLTC)",
+    "Cream Tether USD (crUSDT)",
+    "Cream YFI (crYFI)",
+    "Cream Uniswap (crUNI)",
+    "Cream Cosmos Token (crATOM)",
+    "Cream USD Coin (crUSDC)",
+    "Cream ChainLink Token (crLINK)",
+    "Cream (CREAM)",
+    "Cream Polkadot Token (crDOT)",
+    "Cream BNB (crBNB)",
+    "Cream BTCB Token (crBTCB)",
+    "Cream Cardano Token (crADA)",
+    "Cream Cream (crCREAM)",
+    "Cream Band Protocol Token (crBAND)",
+    "Cream EOS Token (crEOS)"
+  ],
+  "Validators": [
+    "Validator: Avengers",
+    "Validator: Sigm8",
+    "Validator: Nozti",
+    "Validator: Namelix",
+    "Validator: Nariox",
+    "Validator: Tiollo",
+    "Validator: Coinlix",
+    "Validator: Glorin",
+    "Validator: Seoraksan",
+    "Validator: Defibit",
+    "Validator: Ciscox",
+    "Validator: Leapbnb",
+    "Validator: Everest",
+    "Validator: Aconcagua",
+    "Validator: Piececoin",
+    "Validator: Ararat",
+    "Validator: Raptas",
+    "Validator: NodeReal",
+    "Validator: Kita",
+    "Validator: Pexmons",
+    "Validator: Stakepulse",
+    "Validator: Fuji",
+    "Validator: BNB48 Club"
+  ],
+  "Binance Wallets": [
+    "Binance: Hot Wallet 20",
+    "Binance: WBNB Token",
+    "Binance: Hot Wallet"
+  ],
+  "Null Addresses": [
+    "Null: 0x000...007",
+    "Null: 0xbBb...BbB",
+    "Null: 0x666...666",
+    "Null: 0x000...dEaD"
+  ],
+  "Ankr": [
+    "Ankr (ANKR)"
+  ],
+  "Bestswap Token": [
+    "Bestswap Token (BEST)",
+    "UNCX Network: Deployer"
+  ],
+  "TFL Token": [
+    "TFL Token (TFL)"
+  ],
+  "JNTR Tokens": [
+    "JNTR/b (JNTR/b)",
+    "Jointer (JNTR)"
+  ],
+  "MXC BEP20": [
+    "MXC BEP20 (MXC)"
+  ],
+  "Hotbit": [
+    "Hotbit"
+  ],
+  "Travala.com Token": [
+    "Travala.com Token (AVA)"
+  ],
+  "Nether.Network": [
+    "Nether.Network (NN)"
+  ],
+  "DANGO": [
+    "DANGO (DANGO)"
+  ],
+  "ACryptoS": [
+    "ACryptoS (ACS)"
+  ],
+  "Anyswap Deployers": [
+    "Anyswap: Deployer 4",
+    "Anyswap: Deployer 3"
+  ],
+  "ChainLink-ERC20": [
+    "ChainLink-ERC20 (anyLINK)"
+  ],
+  "DAI-ERC20": [
+    "DAI-ERC20 (anyDAI)"
+  ],
+  "YFI-ERC20": [
+    "YFI-ERC20 (anyYFI)"
+  ],
+  "OMG-ERC20": [
+    "OMG-ERC20 (anyOMG)"
+  ],
+  "COMP-ERC20": [
+    "COMP-ERC20 (anyCOMP)"
+  ],
+  "ANY Ethereum": [
+    "ANY Ethereum (anyETH)"
+  ],
+  "USDT-ERC20": [
+    "USDT-ERC20 (anyUSDT)"
+  ],
+  "Happiness Token": [
+    "Happiness: Old HPS Token"
+  ],
+  "Chainlink Price Feed": [
+    "Chainlink: BNB/USD Price Feed"
+  ],
+  "HARD Token": [
+    "HARD (HARD)"
+  ],
+  "ren Tokens": [
+    "renFIL (renFIL)",
+    "renDGB (renDGB)",
+    "renDOGE (renDOGE)",
+    "renLUNA (renLUNA)"
+  ],
+  "Anyswap Tokens": [
+    "Anyswap: anyFSN Token"
+  ],
+  "Big Prom": [
+    "Big Prom 30 (PROM)"
+  ],
+  "Thugs Old Token": [
+    "Thugs: Old THUGS Token"
+  ],
+  "YFCSilver": [
+    "YFCSilver (YFCS)"
+  ],
+  "Cubiex": [
+    "Cubiex (CBIX)"
+  ],
+  "AscendEX Hot Wallet": [
+    "AscendEX Hot Wallet"
+  ],
+  "ANY Bitcoin": [
+    "ANY Bitcoin (anyBTC)"
+  ],
+  "Burger Swap": [
+    "Burger Swap (BURGER)"
+  ],
+  "DegenSwap Old Token": [
+    "DegenSwap: Old DEGEN Token"
+  ],
+  "BSCswap Token": [
+    "BSCswap: BSWAP Token"
+  ],
+  "Gate.io": [
+    "Gate.io"
+  ],
+  "JULb": [
+    "JULb (JULb)"
+  ],
+  "VIDT Datalink Old Token": [
+    "VIDT Datalink: Old VIDT Token"
+  ],
+  "Swipe": [
+    "Swipe (SXP)"
+  ],
+  "Venus": [
+    "Venus (XVS)"
+  ],
+  "fry.world Tokens": [
+    "fry.world (FRIES)",
+    "fry.Ketchup (KHP)",
+    "FryWorld: Staking Contract"
+  ],
+  "Trust Wallet": [
+    "Trust Wallet (TWT)"
+  ],
+  "BscScan Donate": [
+    "BscScan: Donate"
+  ],
+  "Vice.Uno": [
+    "Vice.Uno (VICE)"
+  ],
+  "CertiK Token": [
+    "CertiK Token (CTK)"
+  ],
+  "Chess": [
+    "Chess (Chess)"
+  ],
+  "beergarden.finance": [
+    "beergarden.finance (Beer)"
+  ],
+  "BLinkToken": [
+    "BLinkToken (blink)"
+  ],
+  "StableX Token": [
+    "StableX Token (STAX)"
+  ],
+  "AlphaToken": [
+    "AlphaToken (ALPHA)"
+  ],
+  "Zeedex Old Token": [
+    "Zeedex: Old ZDEXb Token"
+  ],
+  "InnovativeBioresearchCoin": [
+    "InnovativeBioresearchCoin (INNBC)"
+  ],
+  "The Force Token": [
+    "The Force Token (FOR)"
+  ],
+  "LTO Network": [
+    "LTO Network (LTO)"
+  ],
+  "Nyanswop Token": [
+    "Nyanswop Token (NYA)"
+  ],
+  "MATH Token": [
+    "MATH Token (MATH)"
+  ],
+  "PLANET": [
+    "PLANET (PLNT)"
+  ],
+  "AnonymousMask.Finance": [
+    "AnonymousMask.Finance: MASK Token"
+  ],
+  "bZx Deployer": [
+    "bZx: Deployer"
+  ],
+  "LuckCoin": [
+    "LuckCoin (LUCK)"
+  ],
+  "Binance-Peg Compound Coin": [
+    "Binance-Peg Compound Coin (COMP)"
+  ],
+  "ONO LEND": [
+    "ONO LEND (ONO)"
+  ],
+  "NAR Dividend Token": [
+    "NAR Dividend Token (GEM)"
+  ],
+  "Dego.Finance Old Token": [
+    "Dego.Finance: Old DEGO Token"
+  ],
+  "LegendXtoken": [
+    "LegendXtoken (LGX)"
+  ],
+  "PancakeSwap Token": [
+    "PancakeSwap Token (Cake)",
+    "SyrupBar Token (SYRUP)"
+  ],
+  "BNB48 Club Token": [
+    "BNB48 Club Token (KOGE)"
+  ],
+  "Anyswap-BEP20": [
+    "Anyswap-BEP20 (ANY)"
+  ],
+  "candyland.finance": [
+    "candyland.finance (CANDY)"
+  ],
+  "Uniswap Finance": [
+    "Uniswap Finance (UNFI)"
+  ]
+}

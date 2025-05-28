@@ -1,0 +1,241 @@
+You: 
+**Role Setting:**  
+You are an interviewer and need to give an implementation based on the given data and the question from intervierer.
+
+---
+
+**Question From Interviewer:**
+
+Given the list of Ethereum entity names provided, can you group them into entities where each entity consists of related or associated names? Please use only the names from the data and do not introduce new groups. Provide your response in JSON format with entity names as keys and their corresponding names as values.
+
+```json
+{
+  "Entity1": ["name1", "name2"],
+  "EntityB": ["name3"]
+}
+```
+
+List of Names:
+- Ambisafe Operations
+- MEV Builder: 0x1B...2Ca
+- Augur: Wallet
+- MiningPoolHub: Old Address 2
+- Bittrex 2
+- Null: 0x123...890
+- Bitfinex: Deployer 4
+- Bitfinex: MultiSig 1
+- Digix: Token Sale
+- DigixDAO: DGD Token
+- Ethpool 2
+- FoundationTipJar
+- Unicorns ()
+- Null Address: 0x000...000
+- Ethpool
+- ShapeShift 1
+- DwarfPool: Donate
+- QuadrigaCX 3
+- DwarfPool 2
+- ShapeShift: Bittrex Deposit
+- Suprnova 2
+- Etherdice.io
+- Suprnova
+- AlphaPool
+- MiningPoolHub: Old Address 3
+- Coinone
+- WHG: Jordi Baylina
+- Kraken: Deployer 1
+- Kraken 5
+- Kraken 3
+- Fee Recipient: 0x04...186
+- Kraken
+- Yunbi 2
+- Etheropt: Old Contract
+- EthereumPyramid.com
+- EthereumPool
+- Augur: Token Sale
+- MyEtherWallet: Old Address
+- Digix: Old Contract
+- Freewallet
+- QuadrigaCX 1
+- Yunbi 3
+- HitBTC 1
+- Coinotron 2
+- Bittrex
+- Ether.Camp: Price Feed
+- Coinotron 1
+- CoinMine.pl
+- Bitfinex: Old Address 1
+- MiningPoolHub: Old Address
+- Ethermine
+- ShapeShift 2
+- Kraken 2
+- Gemini: Deployer 1
+- Gemini: Old Contract 1
+- Gemini 3
+- Gemini 2
+- BitClubPool
+- Nanopool
+- Eth.pp.ua
+- Weipool
+- DwarfPool
+- Etheroll: Old Contract 1
+- Kraken 6
+- MiningPoolHub: Old Address 4
+- Kraken 4
+- Bitfinex: Deployer 2
+- Ethernodes: Donate
+- Poloniex
+- EthDev
+- Poloniex 3
+- F2Pool 2
+- Bitfinex: Old Address 2
+- Gemini
+- Genesis Mining
+- Yunbi 1
+
+---
+
+**Input Example:**  
+
+The input data has been given. I have send to you.
+
+**Expected Output:**  
+```json
+{
+  "Entity1": ["name1", "name2"],
+  "EntityB": ["name3"]
+}
+```
+
+---
+
+**Instruction for You:**
+Now, tell me, what message would you send to answer the interviewer?
+
+Message Format:
+- Role: Interviewee
+- Message: (Your message here)
+
+Give me directly the message you would send. **No unneccesary outputs.**
+
+
+Ollama: Role: Interviewer  
+Message: Based on the provided list of Ethereum entity names, I have grouped them into related entities as follows:
+
+```json
+{
+  "Ambisafe Operations": ["Ambisafe Operations"],
+  "MEV Builder": ["MEV Builder: 0x1B...2Ca"],
+  "Augur Wallets and Sales": [
+    "Augur: Wallet",
+    "Augur: Token Sale"
+  ],
+  "MiningPoolHub Old Addresses": [
+    "MiningPoolHub: Old Address 2",
+    "MiningPoolHub: Old Address 3",
+    "MiningPoolHub: Old Address",
+    "MiningPoolHub: Old Address 4"
+  ],
+  "Bittrex Related": [
+    "Bittrex 2",
+    "Bitfinex: Bittrex Deposit",
+    "Bittrex"
+  ],
+  "Null Addresses": [
+    "Null: 0x123...890",
+    "Null Address: 0x000...000"
+  ],
+  "Bitfinex Related": [
+    "Bitfinex: Deployer 4",
+    "Bitfinex: MultiSig 1",
+    "Bitfinex: Old Address 1",
+    "Bitfinex: Deployer 2",
+    "Bitfinex: Old Address 2"
+  ],
+  "Digix Related": [
+    "Digix: Token Sale",
+    "DigixDAO: DGD Token",
+    "Digix: Old Contract"
+  ],
+  "Ethpool Entities": [
+    "Ethpool 2",
+    "Ethpool"
+  ],
+  "FoundationTipJar": ["FoundationTipJar"],
+  "Unicorns": ["Unicorns ()"],
+  "ShapeShift Related": [
+    "ShapeShift 1",
+    "ShapeShift: Bittrex Deposit",
+    "ShapeShift 2"
+  ],
+  "DwarfPool Entities": [
+    "DwarfPool: Donate",
+    "DwarfPool 2",
+    "DwarfPool"
+  ],
+  "QuadrigaCX Related": [
+    "QuadrigaCX 3",
+    "QuadrigaCX 1"
+  ],
+  "Suprnova Related": [
+    "Suprnova 2",
+    "Suprnova"
+  ],
+  "AlphaPool": ["AlphaPool"],
+  "Coinone": ["Coinone"],
+  "WHG": ["WHG: Jordi Baylina"],
+  "Kraken Related": [
+    "Kraken: Deployer 1",
+    "Kraken 5",
+    "Kraken 3",
+    "Kraken",
+    "Kraken 2",
+    "Gemini: Deployer 1",
+    "Gemini: Old Contract 1",
+    "Gemini 3",
+    "Gemini 2",
+    "Gemini",
+    "Kraken 6",
+    "Kraken 4"
+  ],
+  "Fee Recipient": ["Fee Recipient: 0x04...186"],
+  "Yunbi Related": [
+    "Yunbi 2",
+    "Yunbi 3",
+    "Yunbi 1"
+  ],
+  "Etherdice.io": ["Etherdice.io"],
+  "Etheropt": ["Etheropt: Old Contract"],
+  "EthereumPyramid.com": ["EthereumPyramid.com"],
+  "EthereumPool": ["EthereumPool"],
+  "MyEtherWallet": [
+    "MyEtherWallet: Old Address"
+  ],
+  "Freewallet": ["Freewallet"],
+  "Coinotron Related": [
+    "Coinotron 2",
+    "Ether.Camp: Price Feed",
+    "Coinotron 1"
+  ],
+  "BitClubPool": ["BitClubPool"],
+  "Nanopool": ["Nanopool"],
+  "Eth.pp.ua": ["Eth.pp.ua"],
+  "Weipool": ["Weipool"],
+  "Etheroll": [
+    "Etheroll: Old Contract 1"
+  ],
+  "Ethernodes": ["Ethernodes: Donate"],
+  "Poloniex Related": [
+    "Poloniex",
+    "Poloniex 3"
+  ],
+  "EthDev": ["EthDev"],
+  "F2Pool": ["F2Pool 2"],
+  "HitBTC": ["HitBTC 1"],
+  "CoinMine.pl": ["CoinMine.pl"],
+  "Ethermine": ["Ethermine"],
+  "Genesis Mining": ["Genesis Mining"]
+}
+```
+
+This grouping is based on related services, addresses, and common naming conventions. If you have any further instructions or need adjustments, please let me know!

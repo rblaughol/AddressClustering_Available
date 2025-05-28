@@ -1,0 +1,76 @@
+Ambisafe Operations
+MEV Builder: 0x1B...2Ca
+Augur: Wallet
+MiningPoolHub: Old Address 2
+Bittrex 2
+Null: 0x123...890
+Bitfinex: Deployer 4
+Bitfinex: MultiSig 1
+Digix: Token Sale
+DigixDAO: DGD Token
+Ethpool 2
+FoundationTipJar
+Unicorns ()
+Null Address: 0x000...000
+Ethpool
+ShapeShift 1
+DwarfPool: Donate
+QuadrigaCX 3
+DwarfPool 2
+ShapeShift: Bittrex Deposit
+Suprnova 2
+Etherdice.io
+Suprnova
+AlphaPool
+MiningPoolHub: Old Address 3
+Coinone
+WHG: Jordi Baylina
+Kraken: Deployer 1
+Kraken 5
+Kraken 3
+Fee Recipient: 0x04...186
+Kraken
+Yunbi 2
+Etheropt: Old Contract
+EthereumPyramid.com
+EthereumPool
+Augur: Token Sale
+MyEtherWallet: Old Address
+Digix: Old Contract
+Freewallet
+QuadrigaCX 1
+Yunbi 3
+HitBTC 1
+Coinotron 2
+Bittrex
+Ether.Camp: Price Feed
+Coinotron 1
+CoinMine.pl
+Bitfinex: Old Address 1
+MiningPoolHub: Old Address
+Ethermine
+ShapeShift 2
+Kraken 2
+Gemini: Deployer 1
+Gemini: Old Contract 1
+Gemini 3
+Gemini 2
+BitClubPool
+Nanopool
+Eth.pp.ua
+Weipool
+DwarfPool
+Etheroll: Old Contract 1
+Kraken 6
+MiningPoolHub: Old Address 4
+Kraken 4
+Bitfinex: Deployer 2
+Ethernodes: Donate
+Poloniex
+EthDev
+Poloniex 3
+F2Pool 2
+Bitfinex: Old Address 2
+Gemini
+Genesis Mining
+Yunbi 1

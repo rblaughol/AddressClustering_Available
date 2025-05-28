@@ -1,0 +1,160 @@
+Ankr (ANKR)
+Binance: Hot Wallet 20
+mexc.com 2
+Null: 0x000...007
+Bestswap Token (BEST)
+UNCX Network: Deployer
+TFL Token (TFL)
+JNTR/b (JNTR/b)
+Jointer (JNTR)
+MXC BEP20 (MXC)
+Hotbit
+Travala.com Token (AVA)
+Nether.Network (NN)
+DANGO (DANGO)
+ACryptoS (ACS)
+Anyswap: Deployer 4
+ChainLink-ERC20 (anyLINK)
+DAI-ERC20 (anyDAI)
+YFI-ERC20 (anyYFI)
+OMG-ERC20 (anyOMG)
+COMP-ERC20 (anyCOMP)
+ANY Ethereum (anyETH)
+USDT-ERC20 (anyUSDT)
+Happiness: Old HPS Token
+Chainlink: BNB/USD Price Feed
+HARD (HARD)
+renFIL (renFIL)
+renDGB (renDGB)
+renDOGE (renDOGE)
+renLUNA (renLUNA)
+Anyswap: anyFSN Token
+Big Prom 30 (PROM)
+Thugs: Old THUGS Token
+YFCSilver (YFCS)
+Cubiex (CBIX)
+AscendEX Hot Wallet
+Null: 0xbBb...BbB
+Validator: Avengers
+Anyswap: Deployer 3
+ANY Bitcoin (anyBTC)
+Burger Swap (BURGER)
+Null: 0x000...003
+Validator: Sigm8
+Validator: Nozti
+Validator: Namelix
+Validator: Nariox
+Validator: Tiollo
+Validator: Coinlix
+Validator: Glorin
+Validator: Seoraksan
+Validator: Defibit
+Validator: Ciscox
+Validator: Leapbnb
+Validator: Everest
+Binance: WBNB Token
+Validator: Aconcagua
+Validator: Piececoin
+Validator: Ararat
+Validator: Raptas
+Validator: NodeReal
+Validator: Kita
+Validator: Pexmons
+Validator: Stakepulse
+Validator: Fuji
+DegenSwap: Old DEGEN Token
+BSCswap: BSWAP Token
+Gate.io
+JULb (JULb)
+VIDT Datalink: Old VIDT Token
+Swipe (SXP)
+Venus (XVS)
+fry.world (FRIES)
+FryWorld: Staking Contract
+fry.Ketchup (KHP)
+Trust Wallet (TWT)
+BscScan: Donate
+Binance-Peg Basic Attention Token (BAT)
+Binance-Peg Synthetix Network Token (SNX)
+Binance-Peg yearn.finance (YFI)
+Binance-Peg Uniswap (UNI)
+Binance-Peg Filecoin (FIL)
+Vice.Uno (VICE)
+CertiK Token (CTK)
+Chess (Chess)
+beergarden.finance (Beer)
+Validator: BNB48 Club
+BLinkToken (blink)
+Cream Dai Token (crDAI)
+Cream Tezos Token (crXTZ)
+Cream Filecoin (crFIL)
+Cream XRP (crXRP)
+Cream Ethereum Token (crETH)
+Cream Litecoin Token (crLTC)
+Cream Tether USD (crUSDT)
+Cream YFI (crYFI)
+Cream Uniswap (crUNI)
+Cream Cosmos Token (crATOM)
+Cream USD Coin (crUSDC)
+Cream ChainLink Token (crLINK)
+Cream (CREAM)
+Cream Polkadot Token (crDOT)
+Cream BNB (crBNB)
+Cream BTCB Token (crBTCB)
+Cream Cardano Token (crADA)
+Cream Cream (crCREAM)
+Cream Band Protocol Token (crBAND)
+Cream EOS Token (crEOS)
+StableX Token (STAX)
+AlphaToken (ALPHA)
+Zeedex: Old ZDEXb Token
+mexc.com
+InnovativeBioresearchCoin (INNBC)
+Null: 0x666...666
+The Force Token (FOR)
+LTO Network (LTO)
+Nyanswop Token (NYA)
+MATH Token (MATH)
+PLANET (PLNT)
+AnonymousMask.Finance: MASK Token
+bZx: Deployer
+Binance-Peg BTCB Token (BTCB)
+Binance-Peg BUSD Token (BUSD)
+Prometeus (PROM)
+Binance: Hot Wallet
+Binance-Peg BSC-USD (BSC-USD)
+Binance-Peg ChainLink Token (LINK)
+Binance-Peg Cardano Token (ADA)
+Binance-Peg Band Protocol Token (BAND)
+Binance-Peg Bitcoin Cash Token (BCH)
+Binance-Peg Dai Token (DAI)
+Binance-Peg Polkadot Token (DOT)
+Binance-Peg Ethereum Token (ETH)
+Binance-Peg Litecoin Token (LTC)
+Binance-Peg Ontology Token (ONT)
+Binance-Peg XRP Token (XRP)
+Binance-Peg Tezos Token (XTZ)
+Binance-Peg EOS Token (EOS)
+Binance-Peg Cosmos Token (ATOM)
+Binance-Peg YFII.finance Token (YFII)
+Binance-Peg Zcash Token (ZEC)
+Null: 0x000...dEaD
+Anyswap-BEP20 (ANY)
+PancakeSwap Token (Cake)
+SyrupBar Token (SYRUP)
+BNB48 Club Token (KOGE)
+LuckCoin (LUCK)
+Binance-Peg Compound Coin (COMP)
+Binance-Peg ELF Token (ELF)
+Binance-Peg IoTeX Network (IOTX)
+Binance-Peg Token Club (TCT)
+LegendXtoken (LGX)
+ONO LEND (ONO)
+NAR Dividend Token (GEM)
+Dego.Finance: Old DEGO Token
+Binance-Peg NEAR Protocol (NEAR)
+Binance-Peg Paxos Standard (PAX)
+Binance-Peg USD Coin (USDC)
+Binance-Peg PAX Gold (PAXG)
+candyland.finance (CANDY)
+Uniswap Finance (UNFI)
