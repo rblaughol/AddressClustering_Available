@@ -117,7 +117,6 @@ def main():
             if a not in json_hashes:
                 expansions.add(a)
 
-    # >>>>>>>>>>>> 新增：写入 txt 文件 <<<<<<<<<<
     print(f"\n[WRITE] Writing expanded addresses to: {EXPAND_OUT}")
     with open(EXPAND_OUT, "w", encoding="utf-8") as f:
         # Write unique addresses to ensure deduplication
