@@ -643,7 +643,6 @@ def review_bulk_merge_apply_deltas(entity_lines: List[str], api_key: str, tokeni
     print(f"[REVIEW] total bulks = {len(bulks)}")
     all_delta_clusters: List[List[str]] = []
 
-    # 你要的逻辑：0 和 1..n 比一次；1 和 2..n 比一次；...
     for i in range(len(bulks) - 1):
         base = bulks[i]
         print(f"\n===== [Review i={i}] START =====")
@@ -685,7 +684,6 @@ def review_bulk_merge_apply_deltas(entity_lines: List[str], api_key: str, tokeni
 
             deltas = parse_clusters(response)
             if deltas:
-                # 只存“变化”，不更新base，避免膨胀
                 all_delta_clusters.extend(deltas)
 
         print(f"===== [Review i={i}] COMPLETE =====")
