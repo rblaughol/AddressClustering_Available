@@ -240,7 +240,6 @@ def load_or_create_prompt(prompt_path: str) -> str:
 
 def forward_diff_prompt() -> str:
     """
-    Forward阶段（diff-only）：
     Treat A+B as one set, allow merges/re-grouping when likely/possible same entity.
     If no changes, output NOTHING (empty).
     """
@@ -294,7 +293,6 @@ def forward_diff_prompt() -> str:
 
 def review_diff_prompt() -> str:
     """
-    Review阶段（diff-only）：
     Allow split/merge/re-group, but only output lines that should change.
     """
     return (
@@ -586,7 +584,6 @@ def forward_bulk_merge(ens_list: List[str], api_key: str, system_prompt: str, to
     if bulks:
         all_lines.extend(bulks[0])
 
-    # normalize + 全局去重
     uniq: List[str] = []
     seen = set()
     for line in all_lines:
@@ -595,14 +592,12 @@ def forward_bulk_merge(ens_list: List[str], api_key: str, system_prompt: str, to
             seen.add(nl)
             uniq.append(nl)
 
-    # 找到所有“两个以上名字”的实体（逗号分割后 >=2）
     multi_name_entities: List[str] = []
     for line in uniq:
         names = [x.strip() for x in line.split(",") if x.strip()]
         if len(names) >= 2:
             multi_name_entities.append(line)
 
-    # 打印并返回
     print("\n===== [FINAL] Entities with >= 2 ENS names =====")
     for line in multi_name_entities:
         print(line)
@@ -806,7 +801,6 @@ def review_bulk_merge_apply_deltas(entity_lines: List[str], api_key: str, tokeni
     print(f"[REVIEW] total bulks = {len(bulks)}")
     all_delta_clusters: List[List[str]] = []
 
-    # 你要的逻辑：0 和 1..n 比一次；1 和 2..n 比一次；...
     for i in range(len(bulks) - 1):
         base = bulks[i]
         print(f"\n===== [Review i={i}] START =====")
@@ -874,7 +868,6 @@ def review_bulk_merge_apply_deltas(entity_lines: List[str], api_key: str, tokeni
 
             deltas = parse_clusters(response)
             if deltas:
-                # 只存“变化”，不更新base，避免膨胀
                 all_delta_clusters.extend(deltas)
 
         print(f"===== [Review i={i}] COMPLETE =====")
