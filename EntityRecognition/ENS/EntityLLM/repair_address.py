@@ -8,10 +8,10 @@ from web3 import Web3
 # 4 RPC endpoints (4 processes per RPC, total 16 processes)
 # =========================
 RPCS = [
-    ("zzy Account2", "https://mainnet.chainnodes.org/dfcb4040-9ac1-49cf-8557-94016a639bd1"),
-    ("De1 Account3", "https://mainnet.chainnodes.org/57c9aae1-4f27-4b3f-83d6-f851493c11e0"),
-    ("yrb Account4", "https://mainnet.chainnodes.org/35b59fa9-5f5f-47a3-91e9-67c2852aed25"),
-    ("De2 Account5", "https://mainnet.chainnodes.org/cede21a1-0e54-4ea8-bb51-042dfbd8ff7c"),
+    ("Account2", "..."),
+    ("Account3", "..."),
+    ("Account4", "..."),
+    ("Account5", "..."),
 ]
 
 PROCS_PER_RPC = 4
