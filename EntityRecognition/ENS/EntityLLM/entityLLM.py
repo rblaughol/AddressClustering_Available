@@ -14,7 +14,7 @@ from multiprocessing import Pool
 ############################################
 
 ENV_PATH = "../../env.conf"
-DATA_PATH = "/public/home/blockchain_2/slave3/deanonymization/EntityRecognition/ENS/dataset/preprocessed_ens.csv"
+DATA_PATH = "../preprocessed_ens.csv"
 PROMPT_PATH = "./entity_recognition_prompt.txt"
 
 MODEL_NAME = "gpt-5-mini"
